@@ -1,0 +1,239 @@
+[1.759s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.760s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4907994880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4907c06f50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4907c06f50>>)
+[1.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.854s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/allsparknouvaneonss/Desktop/del_launch_ws'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extension 'ignore'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extension 'ignore_ament_install'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extensions ['colcon_pkg']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extension 'colcon_pkg'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extensions ['colcon_meta']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extension 'colcon_meta'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extensions ['ros']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/c_launch) by extension 'ros'
+[1.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/c_launch' with type 'ros.ament_cmake' and name 'c_launch'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ignore_ament_install'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_pkg']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_pkg'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['colcon_meta']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'colcon_meta'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extensions ['ros']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_tutorial) by extension 'ros'
+[1.894s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_tutorial' with type 'ros.ament_python' and name 'launch_tutorial'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'ignore'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'ignore_ament_install'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['colcon_pkg']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'colcon_pkg'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['colcon_meta']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'colcon_meta'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extensions ['ros']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch) by extension 'ros'
+[1.895s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_launch' with type 'ros.ament_python' and name 'py_launch'
+[1.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.896s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/allsparknouvaneonss/Desktop/del_launch_ws/install
+[2.143s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[2.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'cmake_args' from command line to 'None'
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'cmake_target' from command line to 'None'
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'cmake_clean_first' from command line to 'False'
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'cmake_force_configure' from command line to 'False'
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'ament_cmake_args' from command line to 'None'
+[2.321s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[2.322s] Level 5:colcon.colcon_core.verb:set package 'c_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.322s] DEBUG:colcon.colcon_core.verb:Building package 'c_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch', 'merge_install': False, 'path': '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch', 'symlink_install': False, 'test_result_base': None}
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_args' from command line to 'None'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target' from command line to 'None'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[2.359s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[2.360s] Level 5:colcon.colcon_core.verb:set package 'launch_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.360s] DEBUG:colcon.colcon_core.verb:Building package 'launch_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial', 'merge_install': False, 'path': '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/launch_tutorial', 'symlink_install': False, 'test_result_base': None}
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_args' from command line to 'None'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_target' from command line to 'None'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_clean_first' from command line to 'False'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'cmake_force_configure' from command line to 'False'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'ament_cmake_args' from command line to 'None'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[2.386s] Level 5:colcon.colcon_core.verb:set package 'py_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.386s] DEBUG:colcon.colcon_core.verb:Building package 'py_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch', 'merge_install': False, 'path': '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch', 'symlink_install': False, 'test_result_base': None}
+[2.418s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch' with build type 'ament_cmake'
+[2.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch'
+[2.492s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.493s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.620s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/launch_tutorial' with build type 'ament_python'
+[2.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'ament_prefix_path')
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.ps1'
+[2.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.dsv'
+[2.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/hook/ament_prefix_path.sh'
+[2.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch -- -j2 -l2
+[3.928s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/launch_tutorial'
+[3.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --build /home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch -- -j2 -l2
+[4.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch
+[4.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c_launch)
+[4.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial:/opt/ros/humble /usr/bin/cmake --install /home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch
+[4.168s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch' for CMake module files
+[4.169s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch' for CMake config files
+[4.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_launch', 'cmake_prefix_path')
+[4.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/hook/cmake_prefix_path.ps1'
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/hook/cmake_prefix_path.dsv'
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/hook/cmake_prefix_path.sh'
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/bin'
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/lib/pkgconfig/c_launch.pc'
+[4.251s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/lib/python3.10/site-packages'
+[4.251s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/bin'
+[4.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.ps1'
+[4.292s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.dsv'
+[4.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.sh'
+[4.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.bash'
+[4.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.zsh'
+[4.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/colcon-core/packages/c_launch)
+[4.456s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c_launch)
+[4.487s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch' for CMake module files
+[4.488s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch' for CMake config files
+[4.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_launch', 'cmake_prefix_path')
+[4.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/hook/cmake_prefix_path.ps1'
+[4.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/hook/cmake_prefix_path.dsv'
+[4.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/hook/cmake_prefix_path.sh'
+[4.522s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/bin'
+[4.522s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/lib/pkgconfig/c_launch.pc'
+[4.523s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/lib/python3.10/site-packages'
+[4.524s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/bin'
+[4.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.ps1'
+[4.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.dsv'
+[4.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.sh'
+[4.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.bash'
+[4.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/c_launch/package.zsh'
+[4.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/allsparknouvaneonss/Desktop/del_launch_ws/install/c_launch/share/colcon-core/packages/c_launch)
+[4.562s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch' with build type 'ament_python'
+[4.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch', 'ament_prefix_path')
+[4.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/hook/ament_prefix_path.ps1'
+[4.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/hook/ament_prefix_path.dsv'
+[4.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/hook/ament_prefix_path.sh'
+[4.665s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.499s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch'
+[5.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/launch_tutorial': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[6.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log --single-version-externally-managed
+[6.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[6.738s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial' for CMake module files
+[6.739s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial' for CMake config files
+[6.740s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib'
+[6.741s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/bin'
+[6.741s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/pkgconfig/launch_tutorial.pc'
+[6.742s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/python3.10/site-packages'
+[6.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_tutorial', 'pythonpath')
+[6.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.ps1'
+[6.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.dsv'
+[6.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/hook/pythonpath.sh'
+[6.771s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/bin'
+[6.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_tutorial)
+[6.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/package.ps1'
+[6.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/package.dsv'
+[6.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/package.sh'
+[6.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/package.bash'
+[6.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/package.zsh'
+[6.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/colcon-core/packages/launch_tutorial)
+[7.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch' returned '0': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log --single-version-externally-managed
+[7.200s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch' for CMake module files
+[7.201s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch' for CMake config files
+[7.202s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib'
+[7.202s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/bin'
+[7.203s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/pkgconfig/py_launch.pc'
+[7.203s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages'
+[7.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch', 'pythonpath')
+[7.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/hook/pythonpath.ps1'
+[7.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/hook/pythonpath.dsv'
+[7.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/hook/pythonpath.sh'
+[7.276s] Level 1:colcon.colcon_core.environment:checking '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/bin'
+[7.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_launch)
+[7.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/package.ps1'
+[7.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/package.dsv'
+[7.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/package.sh'
+[7.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/package.bash'
+[7.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/package.zsh'
+[7.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/colcon-core/packages/py_launch)
+[7.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.322s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.404s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.419s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.443s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/local_setup.ps1'
+[7.474s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/_local_setup_util_ps1.py'
+[7.477s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/setup.ps1'
+[7.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/local_setup.sh'
+[7.509s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/_local_setup_util_sh.py'
+[7.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/setup.sh'
+[7.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/local_setup.bash'
+[7.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/setup.bash'
+[7.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/local_setup.zsh'
+[7.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/setup.zsh'

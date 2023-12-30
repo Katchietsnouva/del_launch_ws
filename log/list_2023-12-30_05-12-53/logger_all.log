@@ -1,0 +1,60 @@
+[5.199s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/allsparknouvaneonss/Desktop/del_launch_ws']
+[5.199s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/allsparknouvaneonss/Desktop/del_launch_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbfd174ce80>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fbfd1bf7d30>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fbfd1bf7d30>>)
+[5.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.332s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/allsparknouvaneonss/Desktop/del_launch_ws'
+[5.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extensions ['ignore', 'ignore_ament_install']
+[5.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'ignore'
+[5.335s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'ignore_ament_install'
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extensions ['colcon_pkg']
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'colcon_pkg'
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extensions ['colcon_meta']
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'colcon_meta'
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extensions ['ros']
+[5.341s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'ros'
+[5.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extensions ['cmake', 'python']
+[5.366s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'cmake'
+[5.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'python'
+[5.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extensions ['python_setup_py']
+[5.367s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws) by extension 'python_setup_py'
+[5.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[5.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/log) by extension 'ignore'
+[5.368s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/log) ignored
+[5.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[5.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'ignore'
+[5.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'ignore_ament_install'
+[5.369s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extensions ['colcon_pkg']
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'colcon_pkg'
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extensions ['colcon_meta']
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'colcon_meta'
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extensions ['ros']
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'ros'
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extensions ['cmake', 'python']
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'cmake'
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'python'
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extensions ['python_setup_py']
+[5.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src) by extension 'python_setup_py'
+[5.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extensions ['ignore', 'ignore_ament_install']
+[5.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extension 'ignore'
+[5.372s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extension 'ignore_ament_install'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extensions ['colcon_pkg']
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extension 'colcon_pkg'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extensions ['colcon_meta']
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extension 'colcon_meta'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extensions ['ros']
+[5.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch) by extension 'ros'
+[5.378s] DEBUG:colcon.colcon_core.package_identification:Package '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/c_launch' with type 'ros.ament_cmake' and name 'c_launch'
+[5.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extensions ['ignore', 'ignore_ament_install']
+[5.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extension 'ignore'
+[5.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extension 'ignore_ament_install'
+[5.379s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extensions ['colcon_pkg']
+[5.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extension 'colcon_pkg'
+[5.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extensions ['colcon_meta']
+[5.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extension 'colcon_meta'
+[5.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extensions ['ros']
+[5.380s] Level 1:colcon.colcon_core.package_identification:_identify(/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch) by extension 'ros'
+[5.381s] DEBUG:colcon.colcon_core.package_identification:Package '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch' with type 'ros.ament_python' and name 'py_launch'
+[5.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

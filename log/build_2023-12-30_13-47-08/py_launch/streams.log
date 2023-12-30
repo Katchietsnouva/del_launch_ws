@@ -1,0 +1,23 @@
+[2.210s] Invoking command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log --single-version-externally-managed
+[2.959s] running egg_info
+[2.971s] writing ../../build/py_launch/py_launch.egg-info/PKG-INFO
+[2.973s] writing dependency_links to ../../build/py_launch/py_launch.egg-info/dependency_links.txt
+[2.974s] writing entry points to ../../build/py_launch/py_launch.egg-info/entry_points.txt
+[2.974s] writing requirements to ../../build/py_launch/py_launch.egg-info/requires.txt
+[2.975s] writing top-level names to ../../build/py_launch/py_launch.egg-info/top_level.txt
+[2.980s] reading manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[2.987s] adding license file 'LICENSE'
+[2.988s] writing manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[2.988s] running build
+[2.989s] running build_py
+[2.992s] running install
+[2.992s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.993s]   warnings.warn(
+[2.993s] running install_lib
+[3.000s] running install_data
+[3.002s] running install_egg_info
+[3.019s] removing '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[3.020s] Copying ../../build/py_launch/py_launch.egg-info to /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info
+[3.020s] running install_scripts
+[3.076s] writing list of installed files to '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log'
+[3.191s] Invoked command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch' returned '0': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log --single-version-externally-managed

@@ -1,0 +1,37 @@
+[7.837s] Invoking command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log --single-version-externally-managed
+[8.415s] running egg_info
+[8.423s] creating ../../build/py_launch/py_launch.egg-info
+[8.423s] writing ../../build/py_launch/py_launch.egg-info/PKG-INFO
+[8.424s] writing dependency_links to ../../build/py_launch/py_launch.egg-info/dependency_links.txt
+[8.424s] writing entry points to ../../build/py_launch/py_launch.egg-info/entry_points.txt
+[8.425s] writing requirements to ../../build/py_launch/py_launch.egg-info/requires.txt
+[8.425s] writing top-level names to ../../build/py_launch/py_launch.egg-info/top_level.txt
+[8.426s] writing manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[8.435s] reading manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[8.436s] adding license file 'LICENSE'
+[8.437s] writing manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'
+[8.438s] running build
+[8.443s] running build_py
+[8.443s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build
+[8.444s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build/lib
+[8.445s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build/lib/py_launch
+[8.446s] copying py_launch/__init__.py -> /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build/lib/py_launch
+[8.446s] running install
+[8.475s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.475s]   warnings.warn(
+[8.475s] running install_lib
+[8.475s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch
+[8.475s] copying /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build/lib/py_launch/__init__.py -> /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch
+[8.475s] byte-compiling /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch/__init__.py to __init__.cpython-310.pyc
+[8.476s] running install_data
+[8.476s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/ament_index
+[8.476s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/ament_index/resource_index
+[8.476s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/ament_index/resource_index/packages
+[8.476s] copying resource/py_launch -> /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/ament_index/resource_index/packages
+[8.476s] copying package.xml -> /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch
+[8.482s] creating /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/share/py_launch/launch
+[8.483s] running install_egg_info
+[8.499s] Copying ../../build/py_launch/py_launch.egg-info to /home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info
+[8.505s] running install_scripts
+[8.570s] writing list of installed files to '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log'
+[8.759s] Invoked command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/py_launch' returned '0': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/py_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_launch build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/py_launch/install.log --single-version-externally-managed

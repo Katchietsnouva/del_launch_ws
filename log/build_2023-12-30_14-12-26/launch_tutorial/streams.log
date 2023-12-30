@@ -1,0 +1,24 @@
+[3.055s] Invoking command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/launch_tutorial': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[3.810s] running egg_info
+[3.811s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[3.813s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[3.814s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[3.816s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[3.822s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[3.827s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[3.833s] adding license file 'LICENSE'
+[3.835s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[3.837s] running build
+[3.838s] running build_py
+[3.839s] running install
+[3.840s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.841s]   warnings.warn(
+[3.843s] running install_lib
+[3.846s] running install_data
+[3.848s] copying launch/example_substitutions.launch.py -> /home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+[3.849s] running install_egg_info
+[3.854s] removing '/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[3.864s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[3.865s] running install_scripts
+[3.937s] writing list of installed files to '/home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/install.log'
+[4.050s] Invoked command in '/home/allsparknouvaneonss/Desktop/del_launch_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/prefix_override:/home/allsparknouvaneonss/Desktop/del_launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/build install --record /home/allsparknouvaneonss/Desktop/del_launch_ws/build/launch_tutorial/install.log --single-version-externally-managed
