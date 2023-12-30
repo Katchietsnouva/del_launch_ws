@@ -1,0 +1,9 @@
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/uninstall.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/c_launch_uninstall.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/test.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/edit_cache.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/rebuild_cache.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/list_install_components.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/install.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/install/local.dir
+/home/allsparknouvaneonss/Desktop/del_launch_ws/build/c_launch/CMakeFiles/install/strip.dir
